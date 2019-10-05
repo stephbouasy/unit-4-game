@@ -1,0 +1,19 @@
+.jumbotron{
+	background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0692/9895/rrrrrrsailor_moon_tile_shop_thumb.png");
+    color: rgb(92, 92, 194);
+}
+.card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    background-image: url("https://ih0.redbubble.net/image.904992844.5764/flat,800x800,070,f.u3.jpg");
+    height: 1000px;
+    width: 100%;
+}
+.listgroup li {
+    background-color: pink;
+}
+
+
+
+
