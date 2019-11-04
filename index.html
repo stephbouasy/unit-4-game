@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Crystal Collector</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   <script src="jquery-3.4.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <title>Crystal Collector</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <body>
         <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                  <h1 class="display-4">Crystals Collector!</h1>
+                        <h1 class="display-4">Crystals Collector!</h1>
                 </div>
         </div>
 
         <div class="card">
                 <div class="container">
                         <div class="card-body">
-                        <div class="col-md-12">
-                         You will be given a random number at the start of the game.
-                         There are four crystals below. By clicking on a crystal you will 
-                         You win the game by matching your total score to a random number, 
-                         you lose the game if your total score goes above the random number.
-                         add a specific amount of points to your total score.
-                         The value of each crystal is hidden from you until you
-                         click on it.
-                         Each time when the game starts, the game will change the values of each crystal.
-                        </div>
-                        <ul class="list-group-item list-group-item-action list-group-item-primary">
-                                        <li class="list-group-item" id="scoreToAchieve">Score to Achieve:</li>
+                                <div class="col-md-12">
+                                        You will be given a random number at the start of the game.
+                                        There are four crystals below. By clicking on a crystal you will
+                                        You win the game by matching your total score to a random number,
+                                        you lose the game if your total score goes above the random number.
+                                        add a specific amount of points to your total score.
+                                        The value of each crystal is hidden from you until you
+                                        click on it.
+                                        Each time when the game starts, the game will change the values of each crystal.
+                                </div>
+                                <ul class="list-group-item list-group-item-action list-group-item-primary">
+                                        <li class="list-group-item" id="">Score to Achieve: <span
+                                                        id="scoreToAchieve"></span></li>
                                         <li class="list-group-item" id="wins">Wins:</li>
                                         <li class="list-group-item" id="losses">Losses:</li>
-                        </ul>
+                                </ul>
                         </div>
-                        <span class="col-md-2"><img src="assets/images/SailorMoon.jpg" id="sailorMoon" class="img-thumbnail"></span>
-                        <span class="col-md-2"><img src="assets/images/SailorMercury.jpg" id="sailorMercury" class="img-thumbnail"></span>
-                        <span class="col-md-2"><img src="assets/images/SailorVenus.jpg" id="sailorVenus" class="img-thumbnail"></span>
-                        <span class="col-md-2"><img src="assets/images/SailorMars.jpg" id="sailorMars" class="img-thumbnail"></span>
-                        <span class="col-md-2"><img src="assets/images/SailorJupiter.jpg" id="sailorJupiter" class="img-thumbnail"></span>
+                        <span class="col-md-2"><img src="assets/images/SailorMoon.jpg" id="sailorMoon"
+                                        class="img-thumbnail"></span>
+                        <span class="col-md-2"><img src="assets/images/SailorMercury.jpg" id="sailorMercury"
+                                        class="img-thumbnail"></span>
+                        <span class="col-md-2"><img src="assets/images/SailorVenus.jpg" id="sailorVenus"
+                                        class="img-thumbnail"></span>
+                        <span class="col-md-2"><img src="assets/images/SailorMars.jpg" id="sailorMars"
+                                        class="img-thumbnail"></span>
+                        <span class="col-md-2"><img src="assets/images/SailorJupiter.jpg" id="sailorJupiter"
+                                        class="img-thumbnail"></span>
 
                         <div class="list-group">
-                             <a href="#" class="list-group-item list-group-item-action list-group-item-warning" id="totalScore">Your Total Score Is:</a>
-                             <a href="#" class="list-group-item list-group-item-action list-group-item-info">0</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Your
+                                        Total Score Is:</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-info"
+                                        id="yourTotalScore">0</a>
                         </div>
-                </div>   
-        </div> 
-<script type="text/javascript" src="assets/javascript/game.js"></script>   
-<script type="text/javascript" src="assets/javascript/jquery-3.4.1.min.js"></script>       
+                </div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <script type="text/javascript" src="assets/javascript/jquery-3.4.1.min.js"></script>
 </body>
+
 </html>
